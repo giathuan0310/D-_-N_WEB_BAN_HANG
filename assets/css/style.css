@@ -1,3 +1,197 @@
-h1{
+/* Reset CSS */
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* Start CSS Header */
+.header-item{
+    width: 100%;
+    height: 70px;
+    background-color: #f8f5f2;
+    border-top: 5px solid #d7b398;
+    display: flex;
+   
+}
+
+.header-item-icon-twitter{
+    color: #9e9e9e;
+}
+
+
+.header-item-icon-twitter:hover{
+    color: #a9cff2;
+}
+
+.header-item-icon-facebook{
+    color: #9e9e9e;
+}
+
+.header-item-icon-facebook:hover{
+    color: #839cc0;
+}
+
+.header-item-icon-vimeo{
+    color: #9e9e9e;
+}
+
+.header-item-icon-vimeo:hover{
+    color: #a1c8f2;
+}
+
+.header-item-icon-instagram{
+    color: #9e9e9e;
+}
+
+.header-item-icon-instagram:hover{
+    color: #b49283;
+}
+
+.header-item-icon-youtube{
+    color: #9e9e9e;
+}
+
+.header-item-icon-youtube:hover{
+    color: #e51a58;
+}
+
+.header-item-icon-pinterets{
+    color: #9e9e9e;
+}
+
+.header-item-icon-pinterets:hover{
     color: red;
 }
+
+.header-item > a:first-child{
+    margin-left: 141px;
+}
+
+
+.header-item > a{
+    display: flex;
+    align-items: center;
+    font-size: 24px; 
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.item-to-search{
+    position: relative;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.input-find{
+    width: 736px;
+    height: 35px;
+    border-radius: 17px;
+    font-size: 20px; 
+    margin-top: 9px;
+}
+
+.list-item-on-header{
+    margin-left: -240px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.list-item-on-header > li{
+    width: 145px;
+}
+
+.item-in-list-on-header{
+    width: 5x;
+    height: 337px;
+    margin-top: 20px;
+    position: absolute;
+    list-style: none;
+    display: none;
+}
+
+.item-in-list-on-header > li > a{
+    text-decoration: none;
+    color: #b1a49e;
+}
+
+.item-in-list-on-header > li > a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.list-item{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0px 20px 5px;
+}
+
+.list-item > a {
+    text-decoration: none;
+}
+
+.margin-to-left{
+    margin-left: 17px;
+}
+
+ul.list-item-on-header  :hover ul.item-in-list-on-header{
+    display: block;
+} 
+
+.fa-magnifying-glass{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.shop-discount{
+    position: relative;
+    width: 90px;
+    height: 45px;
+    background-color: #d7b398;
+    left: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.shop-discount > p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.list-langue{
+    margin-top: 1%;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+.list-langue > li {
+    list-style: none;
+}
+
+
+.list-langue > li > a{
+    text-decoration: none;
+}
+
+.item-in-list-langue > li{
+    margin-top: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item-in-list-langue{
+    display: none;
+}
+
+ul.list-langue :hover ul.item-in-list-langue{
+    display: block;
+} 
