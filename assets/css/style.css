@@ -18,6 +18,7 @@
     background-color: #f8f5f2;
     border-top: 5px solid #d7b398;
     display: flex;
+    
    
 }
 
@@ -117,6 +118,7 @@
     list-style: none;
     display: none;
     background-color: #fff;
+
 }
 
 .item-in-list-on-header > li > a{
@@ -159,7 +161,7 @@ ul.list-item-on-header  :hover ul.item-in-list-on-header{
     width: 90px;
     height: 45px;
     background-color: #d7b398;
-    left: 20%;
+    left: 130%;
     border-radius: 5px;
     margin-left: 100px;
 }
@@ -234,8 +236,16 @@ ul.list-langue :hover ul.item-in-list-langue{
     margin-left: 70px;
 }
 
+.fa-phone:hover{
+    color: #d7b398;
+}
+
 .fa-heart{
-    margin-left: -50px;
+    margin-left: -40px;
+}
+
+.fa-heart:hover{
+    color: #d7b398;
 }
 
 .nav-item-list-in-about > li {
@@ -472,7 +482,7 @@ ul.nav-item-list-in-products-pages:hover ul.item-in-list-products-pages{
 }
 
 .item-in-list-shop > div >  ul > li:hover{
-    background-color: blue;
+    background-color: #e9e6e4;
 }
 
 .item-in-list-shop > div >  ul > li > a{
@@ -589,7 +599,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 .nav-item-list-in-elements{
     position: relative;
 }
-
+ 
 
 .item-in-list-elements{
     position: absolute;
@@ -600,6 +610,32 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     display: flex;
     justify-content: space-between;
     display: none;
+}
+
+.fa-cart-shopping{
+    margin-left: -40px;
+}
+
+.fa-cart-shopping:hover{
+    color: #d7b398;
+}
+
+.fa-user:hover{
+    color: #d7b398;
+}
+
+ .content-in-cart-shoping{
+    padding-top: 10px;
+    height: 30px;
+    position: absolute;
+    left: 80%;
+    background-color: #fafafa;
+    margin-top: 30px;
+    display: none;
+}
+
+.icon-cart-shopping:hover .content-in-cart-shoping{
+    display: block;
 }
 
 
@@ -647,6 +683,17 @@ ul.nav-item-list-in-elements:hover .item-in-list-elements{
     /* margin-top: 5px; */
 }
 
+.item-new-in-elements{
+    margin-top: -40px;
+    position: absolute;
+    left: 93%;
+}
+
+.item-new-in-elements >p{
+    margin-top: -20px;
+    color: #e9e6e4;
+    left: 10%;
+}
 
 /* CSS banner-in-header */
 .banner-in-header{
