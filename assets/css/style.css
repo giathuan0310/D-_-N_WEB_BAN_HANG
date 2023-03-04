@@ -602,20 +602,30 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     display: none;
 }
 
+
+
 .item-in-list-elements > div > ul > li {
-    line-height: 55px;
+   
+    /* background-color: yellow; */
+    line-height: 60px;
     list-style: none;
 }
 
-.item-in-list-elements > div > ul > li :hover {
-    background-color: blue;
+.item-in-list-elements > div > ul > li  :hover {
+    background-color: #f8f5f2;
     color: black;
+    margin-top: 50px;
 }
 
 .item-in-list-elements > div > ul > li >a {
-    line-height: 55px;
+    /* width: 200px; */
+    padding-top: 10px;
+    /* padding-right: 43px; */
+    padding-bottom: 20px;
     text-decoration: none;
     color: #554f4f;
+    /* background-color: aqua; */
+    /* margin-left: 10px; */
 }
 
 .item-in-list-elements > div > ul{
