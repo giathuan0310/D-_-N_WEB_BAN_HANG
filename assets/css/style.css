@@ -7,6 +7,11 @@
 }
 
 /* Start CSS Header */
+.header{
+    width: 100%;
+    position: fixed;
+}
+
 .header-item{
     width: 100%;
     height: 70px;
@@ -108,9 +113,10 @@
     width: 5x;
     height: 337px;
     margin-top: 20px;
-    position: absolute;
+    position: relative;
     list-style: none;
     display: none;
+    background-color: #fff;
 }
 
 .item-in-list-on-header > li > a{
@@ -147,24 +153,32 @@ ul.list-item-on-header  :hover ul.item-in-list-on-header{
     margin-left: 35px;
 }
 
+
 .shop-discount{
     position: relative;
     width: 90px;
     height: 45px;
     background-color: #d7b398;
-    left: 10%;
-    margin-top: 20px;
+    left: 20%;
     border-radius: 5px;
+    margin-left: 100px;
 }
 
+.shop-discount:hover{
+    background-color: #554f4f;
+}
 
 .shop-discount > p{
+    width: 90px;
+    height: 45px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
     font-size: 18px;
     color: white;
 }
+
+
 
 .list-langue{
     margin-top: 1%;
@@ -229,6 +243,7 @@ ul.list-langue :hover ul.item-in-list-langue{
 }
 
 .nav-item-list-in-about > li > a {
+    color: black;
     text-decoration: none;
 }
 
@@ -248,7 +263,378 @@ ul.list-langue :hover ul.item-in-list-langue{
 .nav-item-list-in-shop > li >a,
 .nav-item-list-in-elements > li >a,
 .nav-item-list-in-categories > li > a{
+    
     text-decoration: none;
+}
+
+/* CSS header_nav */
+
+/* CSS Phan About */
+.nav-item-list-in-about > li > a{
+    font-size: 25px;
+    
+}
+
+.nav-item-list-in-about > li > a:hover{
+    border-bottom: 2px solid black ;
+}
+
+
+
+.nav-item-list-in-about{
+    position: relative;
+    /* margin-top: 140px; */
+}
+
+
+
+.item-in-list-about{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    display: none; 
+    background-color: #fff;
+    /* margin-top: 25px; */
+}
+.item-in-list-about >li{
+    margin-top: 20px;
+    list-style: none;
+    /* background-color: red; */
+}
+
+.item-in-list-about  :hover{
+    background-color: #f8f5f2;
+    
+}
+
+.item-in-list-about > li > a{
+    
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    /* padding: 0px 0px 20px 5px;    */
+    color: #554f4f;
+}
+
+.item-in-list-about > li > a:hover{
+    color: black;
+}
+
+
+.item-in-list-about > li > a{
+    position: relative;
+    margin-top: 50px;
+}
+
+ul.nav-item-list-in-about:hover ul.item-in-list-about{
+    display: block;
+}
+
+.nav-item-new_in,
+.nav-item-sale{
+    color: black;
+}
+
+.nav-item-new_in:hover,
+.nav-item-sale:hover{
+    border-bottom: 2px solid black;
+}
+
+
+/* CSS Phan CATEGORIES */
+.nav-item-list-in-categories{
+    position: relative;
+}
+
+.nav-item-list-in-categories > li > a{
+    color: black;
+}
+
+.item-in-list-categories{
+    padding-top: 20px;
+    position: absolute;
+    width: 265px;
+    height: 180px;
+    margin-left: 20px;
+    display: none;
+    /* margin-top: 150px; */
+    background-color: #fff;
+}
+
+.item-in-list-categories > li{
+    position: relative;
+    list-style: none;
+}
+
+.item-in-list-categories > li:hover{
+    background-color: #f8f5f2;
+}
+
+.item-in-list-categories > li > a{
+    margin-top: 25px;
+    position: relative;
+    line-height: 50px;
+    text-decoration: none;
+    color: #554f4f;
+}
+
+.item-in-list-categories > li > a:hover{
+    color: black;
+}
+
+
+ul.nav-item-list-in-categories:hover ul.item-in-list-categories{
+    display: block;
+}
+
+/* Css phan header Products Page */
+.nav-item-list-in-products-pages{
+    position: relative;
+    
+}
+
+.nav-item-list-in-products-pages > li > a{
+    color: black;
+}
+
+
+.item-in-list-products-pages{
+    display: none;
+    line-height: 50px;
+    width: 265px;
+    height: 330px;
+    position: absolute;
+    background-color: #fff;
+    padding-top: 20px;
+    /* margin-top: 5px; */
+}
+
+.item-in-list-products-pages > li:hover{
+    background-color: #f8f5f2
+}
+
+.item-in-list-products-pages > li{
+    position: relative;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.item-in-list-products-pages > li > a{
+    
+    color: #554f4f;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-in-list-products-pages > li > a:hover{
+    color: black;
+}
+
+
+ul.nav-item-list-in-products-pages:hover ul.item-in-list-products-pages{
+    display: block;
+}
+
+/* CSS phan shop */
+.nav-item-list-in-shop{
+    position: relative;
+}
+
+/* .item1-in-list-shop{
+    position: absolute;
+} */
+
+.item-in-list-shop{
+    /* margin-top: 20px; */
+    position: absolute;
+    width: 1720px;
+    height: 560px;
+    background-color: #f8f5f2;
+    left: -1680%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    
+}
+
+.item-in-list-shop > div >  ul  > h1{
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.item-in-list-shop > div >  ul > li{
+    position: relative;
+    margin-top: 10px;
+    line-height: 30px;
+    list-style: none;
+}
+
+.item-in-list-shop > div >  ul > li:hover{
+    background-color: blue;
+}
+
+.item-in-list-shop > div >  ul > li > a{
+    color: #554f4f;
+    text-decoration: none;
+}
+
+.item4-in-list{
+    margin-right: 90px;
+}
+
+
+
+
+.announcement-new-item{
+    width: 45px;
+    height: 20px;
+    background-color: #d7b398;
+    position: absolute;
+    left: 60%;
+    margin-top: -27px;
+}
+
+.announcement-trendy-item{
+    width: 75px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    left: 45%;
+    margin-left: 20px;
+    margin-top: -24px;
+}
+
+.announcement-trendy-item > p{
+    color: #fafafa;
+    margin-top: -5px;
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+.announcement-new-item > p{
+    color: #fafafa;
+    margin-top: -5px;
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+
+
+.item-in-Hidden-Sidebar-Filter{
+    margin-left: 30px;
+}
+
+.item-in-Shop-Categories-Builder{
+    margin-left: 55px;
+}
+
+.item-in-Product-Grids{
+    margin-left: 100px;
+}
+
+
+.announcement-hot-item{
+    width: 45px;
+    height: 20px;
+    background-color: #5f727f;
+    position: absolute;
+    left: 8%;
+    margin-top: -25px;
+}
+
+
+.item-in-3x-Grid-100-width{
+    position: absolute;
+    left: 75%;
+
+}
+
+.item-in-list-shop > .item3-in-list{
+    width: 260px;
+}
+
+.item-in-list-shop > .item4-in-list{
+    width: 280px;
+}
+
+.announcement-hot-item > p{
+    color: #fafafa;
+    margin-top: -5px;
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+.img-in-list > img{
+    width: 820px;
+    height: 250px;
+    margin-left: -450px;
+    margin-top: 45px;
+}
+
+.item-in-Cart-Checkout-Builder{
+    left: 70%;
+    margin-left: 20px;
+}
+
+ul.nav-item-list-in-shop:hover .item-in-list-shop{
+    display: block;
+    display: flex;
+    padding-top: 50px;
+    /* margin-top: 5px; */
+}
+
+/* CSS Phan menu Elements */
+.nav-item-list-in-elements{
+    position: relative;
+}
+
+
+.item-in-list-elements{
+    position: absolute;
+    width: 1600px;
+    height: 470px;
+    background-color: #fafafa;
+    left: -1090%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+.item-in-list-elements > div > ul > li {
+    line-height: 55px;
+    list-style: none;
+}
+
+.item-in-list-elements > div > ul > li :hover {
+    background-color: blue;
+    color: black;
+}
+
+.item-in-list-elements > div > ul > li >a {
+    line-height: 55px;
+    text-decoration: none;
+    color: #554f4f;
+}
+
+.item-in-list-elements > div > ul{
+    margin-left: 20px;
+}
+
+.item-in-list-elements > div > ul > h1 {
+    margin-bottom: 20px;
+}
+
+.list4-in-elements{
+    margin-right: 100px;
+}
+
+ul.nav-item-list-in-elements:hover .item-in-list-elements{
+    display: block;
+    display: flex;
+    padding-top: 50px;
+    /* margin-top: 5px; */
 }
 
 
