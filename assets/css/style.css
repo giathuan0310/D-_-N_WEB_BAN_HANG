@@ -9,7 +9,7 @@
 /* Start CSS Header */
 .header{
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .header-item{
@@ -223,6 +223,8 @@ ul.list-langue :hover ul.item-in-list-langue{
     align-items: center;
     justify-content: space-evenly;
     font-size: 20px;
+    position: fixed;
+    margin-top: -10px;
 }
 
 .nav-item-main-page > img{
@@ -266,6 +268,7 @@ ul.list-langue :hover ul.item-in-list-langue{
 .nav-item-list-in-shop > li,
 .nav-item-list-in-products-pages > li,
 .nav-item-list-in-categories > li {
+    position: relative;
     list-style: none;
 }
 
@@ -301,7 +304,7 @@ ul.list-langue :hover ul.item-in-list-langue{
 .item-in-list-about{
     position: absolute;
     width: 250px;
-    height: 400px;
+    height: 430px;
     display: none; 
     background-color: #fff;
     /* margin-top: 25px; */
@@ -366,7 +369,7 @@ ul.nav-item-list-in-about:hover ul.item-in-list-about{
     padding-top: 20px;
     position: absolute;
     width: 265px;
-    height: 180px;
+    height: 190px;
     margin-left: 20px;
     display: none;
     /* margin-top: 150px; */
@@ -414,7 +417,7 @@ ul.nav-item-list-in-categories:hover ul.item-in-list-categories{
     display: none;
     line-height: 50px;
     width: 265px;
-    height: 330px;
+    height: 500px;
     position: absolute;
     background-color: #fff;
     padding-top: 20px;
@@ -460,7 +463,7 @@ ul.nav-item-list-in-products-pages:hover ul.item-in-list-products-pages{
     /* margin-top: 20px; */
     position: absolute;
     width: 1720px;
-    height: 560px;
+    height: 530px;
     background-color: #f8f5f2;
     left: -1680%;
     display: flex;
@@ -580,7 +583,7 @@ ul.nav-item-list-in-products-pages:hover ul.item-in-list-products-pages{
     width: 820px;
     height: 250px;
     margin-left: -450px;
-    margin-top: 45px;
+    margin-top: 10px;
 }
 
 .item-in-Cart-Checkout-Builder{
@@ -702,6 +705,7 @@ ul.nav-item-list-in-elements:hover .item-in-list-elements{
     background-color: #f8f5f2;
     display: flex;
     font-size: 20px;
+    margin-top: 60px;
 }
 
 .banner1{
@@ -736,4 +740,123 @@ ul.nav-item-list-in-elements:hover .item-in-list-elements{
 
 .banner3 > a{
     color : #d7b398;
+}
+
+
+/* CSS content */
+.img-in-content > img{
+    /* position: relative; */
+    background-color: #f0efed;
+    margin-top: 2px;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 30px;
+}
+
+.header-in-img{
+    position: relative;
+    color: yellow;
+}
+
+.content-in-img-content{
+    /* position: relative; */
+    display: flex;
+    font-size: 80px;
+    margin-top: -600px;
+    margin-left: 200px;   
+}
+
+.header-blod-in-content{
+    margin-left: 30px;
+}
+
+.paragraph-in-img-content{
+    width: 700px;
+    font-size: 30px;
+    margin-top: 130px;
+    margin-left: -550px;
+}
+
+.btn-in-img{
+    /* position: absolute; */
+    width: 200px;
+    height: 55px;
+    background-color: #d7b398;
+    margin-top: 300px;
+    margin-left: -710px;
+}
+
+.btn-in-img:hover{
+    background-color: #554f4f;
+}
+
+.content-in-btn{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: #fff;
+}
+.fa-chevron-right,
+.fa-chevron-left{
+    top: 46%;
+    position: absolute;
+    left: 2%;
+    font-size: 80px;
+    color: #fff;
+}
+
+.fa-chevron-right{
+    left: 95%;
+}
+
+.btn-buy-now{
+    position: fixed;
+    width: 130px;
+    height: 70px;
+    background-color: #00bcd4;
+    left: 131%;
+    top: 47%;
+    
+}
+
+.icon-cart-in-content{
+    position: absolute;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: -15px;
+}
+
+.content-in-btn-buy-now{
+
+    position: absolute;
+    font-size: 25px;
+    margin-left: 6px;
+}
+
+.btn-buy-now:hover .content-in-btn-buy-now{
+    background-color: #554f4f;
+    color: #fff;
+}
+
+.btn-buy-now:hover .icon-cart-in-content{
+    color: #fff;
+}
+
+.btn-back-main-page{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    font-size: 40px;
+    background-color: #554f4f;
+    left: 94%;
+    top: 90%;
+}
+
+.fa-chevron-up{
+    color: #e9e6e4;
+}
+
+.backround-cotent-delivery > img{
+    width: 100%;
+    margin-top: 211px;
 }
