@@ -223,8 +223,7 @@ ul.list-langue :hover ul.item-in-list-langue{
     align-items: center;
     justify-content: space-evenly;
     font-size: 20px;
-    position: fixed;
-    margin-top: -10px;
+    /* position: fixed; */
 }
 
 .nav-item-main-page > img{
@@ -705,7 +704,7 @@ ul.nav-item-list-in-elements:hover .item-in-list-elements{
     background-color: #f8f5f2;
     display: flex;
     font-size: 20px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .banner1{
@@ -859,4 +858,178 @@ ul.nav-item-list-in-elements:hover .item-in-list-elements{
 .backround-cotent-delivery > img{
     width: 100%;
     margin-top: 211px;
+}
+
+.model-male-in-content > img{
+    margin-top: -4px;
+    width: 100%;
+    height: 360px;
+    background-color: #f9f9fb;
+}
+
+
+.model-female-in-content > img{
+    margin-top: -4px;
+    background-color: #f9f9fb;
+    width: 100%;
+    height: 360px;
+}
+
+.model-in-content{
+    display: flex;
+}
+
+
+.content-in-img-model-male{
+    position: absolute;
+    display: flex;
+    top: 150%;
+}
+
+
+.header-blod-in-content-in-img-model-male,
+.header-no-blod-in-content-in-img-model-male{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+.paragraph-in-img-model-male{
+    margin-left: -385px;
+    font-size: 38px;    
+    margin-top: 20px;
+}
+
+
+.btn-in-img-model-male{
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    width: 108px;
+    height: 40px;
+    margin-top: 90px;
+    background-color: #d7b398;
+    left: 3%;
+}
+
+.btn-in-img-model-male:hover{
+    background-color: #554f4f;
+}
+
+.header-blod-in-content-in-img-model-female,
+.header-no-blod-in-content-in-img-model-female{
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: -50px;
+}
+
+.content-in-img-model-female{
+    position: absolute;
+    display: flex;
+    top: 150%;
+}
+
+.paragraph-in-img-model-female{
+    margin-left: -450px;
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+.btn-in-img-model-female{
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    width: 108px;
+    height: 40px;
+    margin-top: 90px;
+    background-color: #d7b398;
+    left: 5%;
+}
+
+.btn-in-img-model-female:hover{
+    background-color: #554f4f;
+}
+
+
+.item-in-content {
+    display: flex;
+}
+
+
+
+.img-item-dress{
+    width: 470px;
+    height: 460px;
+    background-color: #fff;
+}
+
+.item-in-content > .paragraph-in-item:hover{
+    color: white;
+}
+
+.item-dress-in-content:hover{
+    width: 470px;
+    height: 460px;
+    display: inline-block;
+    background-color: #212121;
+    color: white;
+}
+
+
+
+
+.img-item-dress:hover{
+    background-color: #212121;
+    color: white;
+}
+
+.item-shirts-in-content:hover{
+    width: 470px;
+    height: 460px;
+    display: inline-block;
+    background-color: #212121;
+    color: white;
+}
+
+
+.img-item-shirts{
+    width: 470px;
+    height: 460px;
+    /* background-color: blue; */
+}
+
+.img-item-bags{
+    width: 470px;
+    height: 460px;
+    /* background-color: yellow; */
+}
+
+.item-bags-in-content:hover{
+    width: 470px;
+    height: 460px;
+    display: inline-block;
+    background-color: #212121;
+    color: white;
+}
+
+
+.img-item-accessories{
+    width: 488px;
+    height: 460px;
+    /* background-color: aqua; */
+}
+
+.item-accessories:hover{
+    width: 470px;
+    height: 460px;
+    display: inline-block;
+    background-color: #212121;
+    color: white;
+}
+
+.paragraph-in-item {
+    font-size: 30px;
+   margin-top: -50px;
+    position: absolute;
+    margin-left: 30px;
 }
