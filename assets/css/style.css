@@ -10,7 +10,7 @@
 .header-navbar-contact{
     border-top: 5px solid #d7b398;
     display: flex;
-    width: 95%;
+    width: 100%;
     height: 44px;
     background-color: #f8f5f2;
     justify-content: space-around;
@@ -71,7 +71,7 @@
     height: 38px;
     border-radius: 30px;
     border: 2px solid #9e9e9e;
-    right: 32%;
+    right: 25%;
 }
 
 .list-item {
@@ -190,7 +190,7 @@
 
 /* css header-navbar-information-in-shop */
 .header-navbar-information-in-shop{
-    width: 92%;
+    width: 100%;
     height: 80px;
     display: flex;
     background-color: #ffff;
@@ -760,7 +760,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 
 /* Start css  header-banner */
 .banner-in-header{
-    width: 95%;
+    width: 100%;
     height: 46px;
     background-color: #f8f5f2;
     display: flex;
@@ -772,7 +772,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 362px;
+    width: 580px;
     height: 46px;
     border-width: 1px;
     border-right: 1px solid;
@@ -783,7 +783,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 .banner2{
     display: flex;
     align-items: center;
-    width: 514px;
+    width: 580px;
     height: 46px;
     border-width: 1px;
     border-right: 1px solid;
@@ -794,7 +794,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 .banner3{
     display: flex;
     align-items: center;
-    width: 316px;
+    width: 580px;
     height: 46px;
     justify-content: center;
     margin-right: 130px;
@@ -1042,100 +1042,897 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     color: white;
 }
 
-.nen{
-    display: flex;
-    width:1442px;
+/* CSS list sale item in content */
 
+.paragraph-in-list-sale-item{
+    padding-top: 117px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
 }
-.titlepage2{
+
+.title-in-list-sale-item{
+    font-size: 50px;
+}
+
+.sub-title-in-list-sale-item{
+    margin-top: 10px;
+}
+
+.list-sale-item-in-content{
+   width: 100%;
+    margin-top: 78px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+/* item1-in-list-sale */
+.item1-in-list-sale{
+    width: 250px;
+    height: 502px;
+    text-decoration: none;
+    border: 2px solid #dedede;
+}
+
+.item1-in-list-sale:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.backround-pct-discount-item{
     position: absolute;
-    width: 400px;
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+    background-color: #d7b398;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.pct-discount-item{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+}
+
+.backround-status-item-in-list-sale{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.status-item-in-list-sale{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+
+
+.icon-heart-in-img-item1-in-sale{
+    margin-top: 10px;
+    position: absolute;
+    left: 30%;
+}
+
+.icon-heart-in-img-item1-in-sale:hover{
+    color: #d7b398;
+}
+
+.img-item1-in-list-sale{
+    width: 250px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/1-1-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+
+.img-item1-in-list-sale:hover{
+    width: 250px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/2-1-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid #d7b398;
+}
+
+
+.border-on-name{
+    width: 52px;
+    height: 0.5px;
+    background-color: #d7b398;
+    text-align: center;
+    margin: auto;
+    margin-top: -2px;
+}
+
+.name-of-model{
+    padding-top: 15px;
+    width: 130px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+
+
+.price-of-item{
+    margin-top: 5px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: #d7b398;
+}
+
+.price-max{
+    margin-left: 10px;
+}
+
+
+
+.select-option-in-list-sale{
+    position: absolute;
+    width: 140px;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 450px;
+    text-decoration: none;
+    background-color: #f4f4f4;
+}
+
+.select-option-in-list-sale-in-item1{
+    left: 18%;
+}
+
+.content-in-select-option{
+    margin-top: 3px;
+    margin-left: 40px;
+}
+
+.select-option-in-list-sale > i:hover{
+    color: white;
+}
+
+
+.select-option-in-list-sale:hover{
+    background-color: #554f4f;
+    color: white;
+}
+
+.icon-list-in-list-item-sale{
+    position: absolute;
+    color: #9e9e9e;
+    width: 140px;
+    height: 25px;
+    margin-top: -23px;
+    padding-top: 5px;
+    padding-left: 20px;
+    left: -5%;
+}
+
+.content-in-btn-select-option{
+    color: #9e9e9e;
+    margin-left: 20px;
+}
+
+/* Item2 in list sale */
+.item2-in-list-sale{
+    width: 250px;
+    height: 502px;
+    text-decoration: none;
+    border: 2px solid #dedede;
+    margin-left: 17px;
+}
+
+.item2-in-list-sale:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon-heart-in-img-item2-in-sale{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 230px;
+}
+
+.icon-heart-in-img-item2-in-sale:hover{
+    color: #d7b398;
+}
+
+.img-item2-in-list-sale{
+    width: 250px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/1-9-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+
+.img-item2-in-list-sale:hover{
+    width: 250px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/2-8-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid #d7b398;
+}
+
+.price-of-item{
+    text-decoration: none;
+}
+
+.price-before-discount{
+    margin-top: 3px;
+    font-size: 15px;
+    margin-right: 7px;
+    color: #ebd9cc;
+    text-decoration: line-through;
+}
+
+.select-option-in-list-sale-in-item2{
+    left: 36.5%;
+}
+
+
+
+
+/* Item3 in list sale */
+.item3-in-list-sale{
+    width: 250px;
+    height: 502px;
+    text-decoration: none;
+    border: 2px solid #dedede;
+    margin-left: 17px;
+}
+
+.item3-in-list-sale:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.backround-status-item3-in-list-sale{
+    margin-top: -0.5px;
+}
+
+.icon-heart-in-img-item3-in-sale{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.icon-heart-in-img-item3-in-sale:hover{
+    color: #d7b398;
+}
+
+
+
+.img-item3-in-list-sale{
+    width: 250px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/1-13-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+
+.img-item3-in-list-sale:hover{
+    width: 250px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/Dresses6-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid #d7b398;
+}
+
+.name-of-model-item3-in-list-sale{
+    width: 200px;
+}
+
+.price-of-item{
+    text-decoration: none;
+}
+
+.price-of-item3-in-list-sale{
+    color: #d7b3b3;
+}
+
+.select-option-in-list-sale-in-item3{
+    left: 54%;
+}
+
+/* Item 4 in list sale */
+.item4-in-list-sale{
+    width: 250px;
+    height: 550px;
+    text-decoration: none;
+    border: 2px solid #dedede;
+    margin-left: 17px;
+}
+
+.item4-in-list-sale:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon-heart-in-img-item4-in-sale:hover{
+    color: #d7b398;
+}
+
+.img-item4-in-list-sale{
+    width: 261px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/12-1-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+
+.img-item4-in-list-sale:hover{
+    width: 261px;
+    height: 354px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/13-1-1.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.price-of-item4-in-list-sale{
+    color: #d7b3b3;
+}
+
+.add-to-cart-list-sale{
+    position: absolute;
+    width: 140px;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 450px;
+    text-decoration: none;
+    background-color: #f4f4f4;
+    left: 72%;
+}
+
+
+
+.content-in-add-to-cart{
+    margin-top: 3px;
+    margin-left: 40px;
+}
+
+.add-to-cart-list-sale > i:hover{
+    color: white;
+}
+
+
+.add-to-cart-list-sale:hover{
+    background-color: #554f4f;
+    color: white;
+}
+
+.icon-cart-in-list-item-sale{
+    position: absolute;
+    color: #9e9e9e;
+    width: 140px;
+    height: 25px;
+    margin-top: -23px;
+    padding-top: 5px;
+    padding-left: 20px;
+    left: -5%;
+}
+
+.icon-heart-in-img-item4-in-sale{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+.content-in-btn-select-option{
+    color: #9e9e9e;
+    margin-left: 20px;
+}
+
+.icon-rate-in-list-sale{
+    color: #ffc107;
+}
+
+.icon-star-no-color{
+    color: #b6c6c9;
+}
+
+.icon-rate-in-list-sale {
+    font-size: 13px;
+    text-align: center;
+}
+/* End list */
+.announcement-new-item-is-coming{
+   display: flex;
+   text-decoration: none;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.btn-announcement-new-item{
+    width: 224px;
+    height: 42px;
+    background-color: #d7b398;
+    color: white;
+    margin-bottom: 119px;
+}
+
+.btn-announcement-new-item:hover{
+    background-color: #554f4f;
+}
+
+/*Start  CSS  list-news-in-content*/
+.news-in-content{
+    width: 100%;
+    margin-top: 77px;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.title-in-list-news{
+    position: absolute;
     font-size: 40px;
-    display: flex;
-    margin-top: 45px;
-    color: #f3e6e6;
-    margin-left: 280px;
-    
+    text-align: center;
+    margin: auto;
+    top: 387%;
+    left: 40%;
 }
-.titlepage2a{
+
+.list-news-item-in-content{
+    display: flex;
+    margin-top: 130px;
+}
+
+
+/* Item1 in list news */
+.news1-in-news-content{
+    width: 350px;
+    height: 592px;
+    color: #141418;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.icon-after-hover-img{
     position: absolute;
-    width: 400px;
-    font-size: 19px;
-    display: flex;
-    margin-top: 210px;
-    color: #f3e6e6;
-    margin-left: 658px;
-    
+    width: 70px;
+    height: 30px;  
+   text-align: center;
+   background-color: black;
+   border-radius: 50%;
+ margin: auto;  
+   top: 40%;
+   display: none;
 }
-.headmenu{
+
+.icon-bars-in-news{
+    /* margin-top: 28px; */
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 40%;
+    text-align: center;
+}
+
+.icon-square-in-news{
+    color: white;
+    font-size: 30px;
+    margin-top: 30%;
+}
+
+.img-in-news1-content{
+    width: 356px;
+    height: 260px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/9-20-1-thegem-blog-justified.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.img-in-news1-content:hover{
+    filter: opacity(85%);
+}
+
+.img-in-news1-content:hover .icon-after-hover-img{
+    display: block;
+}
+/* Detail-news1-in-content */
+.details-news1-in-content{
+    position: absolute;
+    /* margin-top: 280px; */
+}
+
+.actor-of-news-in-content{
+    position: absolute;
+    width: 350px;
+    /* background-color: red; */
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: 500px;
-   padding-left: 500px;
-   margin-top: 70px;
-
-}
-.header{
-    display: flex;
-   justify-items: center;
-    align-items: center;
-
-}
-.headera{
-    position: relative;
-}
-.canhchinhhang1{
-    width: 265px;
-    height: 331px;
-    margin-left: 31px;
-    margin-top:48px;
-}
-.textbootom{
-    text-decoration:none ;
-    margin-left: 100px;
-    font-size: 10px;
-}
-.tensanpham{
-    margin-left: 100px;
-
     
 }
-.gia{
-    color: #d7b398;
-    margin-left: 100px;
-}
-.buttomselect{
-    border-radius: 5px;
-    background: #c9b9b9;
-    width: 150px;
-    height: 28px;
-    margin-left: 96px;
-    text-align: right;
 
+
+.actor-news1-in-content{
+    margin-left: -270px;
 }
-.best{
+
+.actor-of-news1-in-content{
+    padding-top: 8px;
+}
+
+
+.icon-heart-in-news-content{
     position: absolute;
-    top: 50px;
-    left: 30px;
-    background-color: rgb(171, 117, 16);
-    width: 30px;
-    height: 15px;
-    font-size: 16px;
-    border-radius: 12px;
-    text-align: center;
-    font-size: 10px;
+    left: 84%;
+    color:red;
 }
-.new{
+
+.interaction-in-news1{
     position: absolute;
-    top: 70px;
-    left: 30px;
-    background-color: rgb(1, 1, 1);
-    width: 30px;
-    height: 15px;
-    font-size: 16px;
-    border-radius: 12px;
-    text-align: center;
-    font-size: 10px;
-    color: #e9e9e9;
+    left: 91%;
 }
+
+.title-in-news{
+    width: 300px;
+    position: absolute;
+    display: flex;
+    margin-top: 60px;
+    font-size: 28px;
+    left: 5%;
+}
+
+.title-in-news:hover{
+    color: #d7b398;
+}
+
+.title-in-news1{
+    position: absolute;
+    margin-top: 68px;
+}
+
+.title-no-blod-in-news1{
+    margin-left: 10px;
+}
+
+.paragraph-in-news1{
+    font-size: 17px;
+    position: absolute;
+    width: 300px;
+    margin-top: 133px;
+    left: 5%;
+}
+
+.icon-link-news1{
+    margin-left: 10px;
+    margin-top: 238px;
+}
+
+.btn-icon-share{
+    width: 32px;
+    height: 32px;
+    background-color: #d7b398;
+    color: white;
+}
+
+.btn-icon-share:hover{
+    opacity: 0.5;
+}
+
+.btn-read-more-in-newws{
+    width: 138px;
+    height: 28px;
+    border: 2px solid #d7b398;
+    color: #d7b398;
+    margin-left: 10px;
+}
+
+.btn-read-more-in-newws:hover{
+    background-color: #d7b398;
+    color: white;
+}
+
+
+
+
+/* Item 2 in list news */
+.news2-in-news-content{
+    width: 350px;
+    height: 592px;
+    color: #141418;
+    text-decoration: none;
+    background-color: #ffffff;
+    margin-left: 41px;
+}
+
+.img-in-news2-content:hover{
+    filter: opacity(85%);
+}
+
+.icon-after-hover-img{
+    position: relative;
+    width: 70px;
+    height: 70px;  
+   text-align: center;
+   background-color: black;
+   border-radius: 50%;
+   margin: auto;
+   top: 40%;
+   display: none;
+}
+
+.icon-bars-in-news{
+    margin-top: 28px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 40%;
+    text-align: center;
+}
+
+.icon-square-in-news{
+    color: white;
+    font-size: 30px;
+    margin-top: 30%;
+}
+
+.img-in-news2-content{
+    width: 356px;
+    height: 268px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/8-22-1-thegem-blog-justified.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.img-in-news2-content:hover .icon-after-hover-img{
+    display: block;
+}
+
+
+/* Detail news2 */
+.details-news2-in-content{
+    position: absolute;
+    /* margin-top: 280px; */
+}
+
+.actor-of-news-in-content{
+    position: absolute;
+    width: 350px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icon-comment-in-content{
+    position: absolute;
+    margin-left: 160px;
+    border-right: 2px solid #d7b398;
+    padding-right: 30px;
+    color: #5d656b;
+}
+
+
+
+.icon-comment-in-content:hover{
+    color: #d7b398;
+}
+
+.interaction-in-comment2{
+    position: absolute;
+    margin-left: 170px;
+}
+
+
+.actor-news2-in-content{
+    margin-left: -270px;
+}
+
+.actor-of-news2-in-content{
+    margin-top: 10px;
+}
+
+.icon-heart-in-news-content{
+    position: absolute;
+    left: 84%;
+    color:red;
+}
+
+.icon-heart-in-news-content:hover{
+    color: black;
+}
+
+.interaction-in-news2{
+    position: absolute;
+    left: 91%;
+}
+
+
+
+.title-no-blod-in-news2{
+    margin-left: 10px;
+}
+
+.paragraph-in-news2{
+    font-size: 17px;
+    position: absolute;
+    width: 300px;
+    margin-top: 120px;
+    left: 5%;
+}
+
+.icon-link-news2{
+    margin-left: 10px;
+    margin-top: 230px;
+}
+
+.btn-icon-share{
+    width: 32px;
+    height: 32px;
+    background-color: #d7b398;
+    color: white;
+}
+
+.btn-icon-share:hover{
+    opacity: 0.5;
+}
+
+.btn-read-more-in-newws{
+    width: 138px;
+    height: 28px;
+    border: 2px solid #d7b398;
+    color: #d7b398;
+    margin-left: 10px;
+}
+
+.btn-read-more-in-newws:hover{
+    background-color: #d7b398;
+    color: white;
+}
+
+/* Item 3 in list new */
+.news3-in-news-content{
+    width: 350px;
+    height: 592px;
+    color: #141418;
+    text-decoration: none;
+    background-color: #ffffff;
+    margin-left: 41px;
+}
+
+.img-in-news3-content:hover{
+    filter: opacity(85%);
+}
+
+.icon-after-hover-img{
+    position: relative;
+    width: 70px;
+    height: 70px;  
+   text-align: center;
+   background-color: black;
+   border-radius: 50%;
+   margin: auto;
+   top: 40%;
+   display: none;
+}
+
+.icon-bars-in-news{
+    margin-top: 28px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 40%;
+    text-align: center;
+}
+
+.icon-square-in-news{
+    color: white;
+    font-size: 30px;
+    margin-top: 30%;
+}
+
+.img-in-news3-content{
+    width: 356px;
+    height: 268px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/11-10-1-thegem-blog-justified.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.img-in-news3-content:hover .icon-after-hover-img{
+    display: block;
+} 
+
+/* Details news 3 */
+.details-news3-in-content{
+    position: absolute;
+    /* margin-top: 280px; */
+}
+
+.actor-of-news-in-content{
+    position: absolute;
+    width: 350px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.actor-news3-in-content{
+    margin-left: -270px;
+}
+
+.actor-of-news3-in-content{
+    margin-top: 10px;
+}
+.interaction-in-comment3{
+    position: absolute;
+    margin-left: 170px;
+}
+
+.icon-heart-in-news-content{
+    position: absolute;
+    left: 84%;
+    color:red;
+}
+
+.interaction-in-news3{
+    position: absolute;
+    left: 91%;
+}
+
+
+
+
+.title-no-blod-in-news3{
+    margin-left: 10px;
+}
+
+.paragraph-in-news3{
+    font-size: 17px;
+    position: absolute;
+    width: 300px;
+    margin-top: 120px;
+    left: 5%;
+}
+
+.icon-link-news3{
+    margin-left: 10px;
+    margin-top: 230px;
+}
+
+.btn-icon-share{
+    width: 32px;
+    height: 32px;
+    background-color: #d7b398;
+    color: white;
+}
+
+.btn-icon-share:hover{
+    opacity: 0.5;
+}
+
+.btn-read-more-in-newws{
+    width: 138px;
+    height: 28px;
+    border: 2px solid #d7b398;
+    color: #d7b398;
+    margin-left: 10px;
+}
+
+.btn-read-more-in-newws:hover{
+    background-color: #d7b398;
+    color: white;
+}
+
+/* End CSS list-news-in-content */
