@@ -7,6 +7,7 @@
     font-family: Montserrat;
 }
 
+/* CSS header */
 .header-navbar-contact{
     border-top: 5px solid #d7b398;
     display: flex;
@@ -804,6 +805,8 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     color : #d7b398;
 }
 
+/* End header */
+
 /* Start CSS Content */
 .img-in-content > img{
     width: 100%;
@@ -875,6 +878,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     background-color: #00bcd4;
     top:80%;
     right: 1%;
+    z-index: 10;
 }
 
 .btn-buy-now:hover{
@@ -1936,3 +1940,402 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 }
 
 /* End CSS list-news-in-content */
+
+
+/*  CSS subscribe-for-news-and-posts-in-content*/
+.subscribe-for-news-and-posts-in-content{
+    margin-top: 122px;
+    width: 100%;
+    height: 244px;
+    background: linear-gradient(0deg, #355c7d, #6c5b7b, #c06c84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-in-subscribe-for-news-and-posts-in-content{
+    font-size: 30px;
+    margin-right: 40px;
+    color: white;
+}
+
+.input-in-subscribe-for-news-and-posts-in-content{
+    width: 331px;
+    height: 49px;
+}
+
+
+
+.btn-in-subscribe-for-news-and-posts-in-content{
+    width: 153px;
+    height: 47px;
+    background-color: #d7b398;
+    color: white;
+    margin-left: 22px;
+}
+
+.btn-in-subscribe-for-news-and-posts-in-content:hover{
+    background-color: #141418;
+}
+
+/* css the-new-fashion-experience */
+.the-new-fashion-experience{
+    width: 100%;
+    
+}
+
+
+.title-in-the-new-fashion-experience{
+    font-size: 40px;
+  display: flex;
+  justify-content: center;
+    margin-top: -980px;
+}
+
+.title-no-blod-in-the-new-fashion-experience{
+    margin-left: 15px;
+}
+
+.subtitle-in-the-new-fashion-experience{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    color: #9e9e9e;
+}
+
+.img-in-the-new-fashion-experience{
+    width: 100%;
+}
+
+/* Item-shirt */
+
+.straight-line-no-color{
+    margin-top: 10px;
+    position: absolute;
+    width: 400px;
+    height: 2px;
+    background-color: #dedede;
+    left: 23%;
+    top: 603%;
+}
+
+
+.straight-line-color{
+    margin-top: 10px;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #d7b398;
+    left: 20%;
+    top: 603%;
+}
+
+.icon-circle-in-the-new-fashion-experience-content{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #dedede;
+    top: 603%;
+    left: 49%;
+    opacity: 0.5;
+}
+
+.icon-circle-in-list-the-new-fashion{
+    top: 603%;
+    left: 49%;
+    position: absolute;
+    color: white !important;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.btn-read-more-in-the-new-fashion-experience{
+    /* position: absolute; */
+    width: 138px;
+    height: 28px;
+    border: 2px solid #d7b398;
+    color: #d7b398;
+}
+
+.btn-read-more-in-the-new-fashion-experience:hover{
+    background-color: #d7b398;
+    color: white;
+}
+
+.details-item-shirt-in-the-new-fashion-experience{
+    position: absolute;
+    top: 607%;
+    left: 20%;
+}
+
+.name-of-item-in-the-new-fashion-experience{
+    font-size: 30px;
+}
+
+.price-of-item-in-the-new-fashion-experience{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Item pink-jacket */
+
+.straight-line-no-color-of-item-pink-jacket{
+    margin-top: 10px;
+    position: absolute;
+    width: 400px;
+    height: 2px;
+    background-color: #dedede;
+    left: 57%;
+    top: 629%;
+}
+
+
+.straight-line-color-of-item-pink-jacket{
+    margin-top: 10px;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #d7b398;
+    left: 80%;
+    top: 629%;
+}
+
+.icon-circle-of-item-pink-jacket-in-the-new-fashion{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #dedede;
+    top: 629%;
+    left: 55.5%;
+    opacity: 0.8;
+}
+
+.sub-icon-circle-of-item-pink-jacket-in-the-new-fashion{
+    position: absolute;
+    color: white;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 4.5px;
+    top: 629%;
+    left: 55.5%;
+}
+
+.btn-read-more-in-the-new-fashion-experience{
+    /* position: absolute; */
+    width: 180px;
+    height: 40px;
+    border: 2px solid #d7b398;
+    color: #d7b398;
+}
+
+.btn-read-more-in-the-new-fashion-experience:hover{
+    background-color: #d7b398;
+    color: white;
+}
+
+.details-item-pink-jacket-in-the-new-fashion-experience{
+    position: absolute;
+    left: 70%;
+    top: 633%;
+}
+
+.name-of-item-pink-jacket-in-the-new-fashion-experience{
+
+    font-size: 30px;
+}
+
+.price-of-item-pink-jacket-in-the-new-fashion-experience{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 145px;
+}
+
+/* Item paints */
+
+.straight-line-no-color-of-item-pants{
+    margin-top: 10px;
+    position: absolute;
+    width: 400px;
+    height: 2px;
+    background-color: #dedede;
+    left: 28.5%;
+    top: 650%;
+}
+
+
+.straight-line-color-of-item-pants{
+    margin-top: 10px;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #d7b398;
+    left: 27%;
+    top: 650%;
+}
+
+.icon-circle-of-item-pants-in-the-new-fashion{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #dedede;
+    top: 650%;
+    left: 54%;
+    opacity: 0.8;
+}
+
+.sub-icon-circle-of-item-pants-in-the-new-fashion{
+    position: absolute;
+    color: white;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 4.5px;
+    top: 650%;
+    left: 54%;
+}
+
+.btn-read-more-in-the-new-fashion-experience{
+    /* position: absolute; */
+    width: 180px;
+    height: 40px;
+    border: 2px solid #d7b398;
+    color: #d7b398;
+}
+
+.btn-read-more-in-the-new-fashion-experience:hover{
+    background-color: #d7b398;
+    color: white;
+}
+
+.details-item-pants-in-the-new-fashion-experience{
+    position: absolute;
+    left: 27%;
+    top: 653%;
+}
+
+.name-of-item-pink-jacket-in-the-new-fashion-experience{
+
+    font-size: 30px;
+}
+
+.price-of-item-pink-jacket-in-the-new-fashion-experience{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 145px;
+}
+/* Icon dot */
+.icon-dot-in-the-new-fashion-experience{
+    position: absolute;
+    top: 672%;
+    left: 73%;
+    color: #d7b398;
+}
+
+.icon-dot-no-color{
+    margin-right: 15px;
+}
+
+/* List brand */
+.list-brand-in-content{
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 699%;
+}
+
+.title-list-brand-in-content{
+    text-align: center;
+}
+
+.title-in-list-brand{
+    font-size: 40px;
+}
+
+.sub-title-in-list-brand{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.icon-control-next-or-previous-in-list-brand{
+    width: 1359px;
+    position: absolute;
+    display: flex;
+    font-size: 28px;
+    margin-top: 120px;
+    left: 5%;
+    justify-content: space-between;
+    z-index: 3;
+   color: white;
+}
+
+.icon-previous-in-list-brand{
+    text-align: center;
+}
+
+.icon-next-in-list-brand{
+    position: absolute;
+    text-align: center;
+    left: 100%;
+}
+
+.box-in-icon-control-in-list-brand > .icon-previous-in-list-brand{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+
+.box-in-icon-control-in-list-brand > .icon-previous-in-list-brand:hover{  
+    background-color: #d7b398;
+}
+
+.box-in-icon-control-in-list-brand > .icon-next-in-list-brand{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+
+.box-in-icon-control-in-list-brand > .icon-next-in-list-brand:hover{
+    width: 30px;
+    height: 30px;
+    background-color: #d7b398;
+}
+
+
+.img-in-list-brand {
+    margin-top: 30px;
+    display: flex;
+   /* background-color: red; */
+   justify-content: center;
+}
+
+.img-in-list-brand > img{
+    margin-left: 50px;
+}
+
+.img-brand1{
+    width: 235px;
+    height: 205px;
+}
+
+.img-brand2{
+    width: 235px;
+    height: 205px;
+}
+
+.img-brand3{
+    width: 235px;
+    height: 205px;
+}
+
+.img-brand4{
+    width: 235px;
+    height: 205px;
+}
