@@ -2586,6 +2586,145 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     font-size: 20px;
 }
 
+/* End content */
+
+/* Start Footer */
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 524px;
+    background-color: #212121;
+    top: 955%;
+}
+
+.title-in-footer{
+    margin-top: 109px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.title-no-blod-in-footer{
+    margin-left: 25px;
+}
+
+.icon-social-media-in-footer{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 46px;
+    margin-bottom: 100px;
+}
+
+.icon-social-media-in-footer >  a {
+    
+    text-decoration: none;
+    color: #212121;
+}
+
+.icon-insta-in-footer,
+.icon-yt-in-footer,
+.icon-twitter-in-footer,
+.icon-face-in-footer{
+    width: 60px;
+    height: 44px;
+    background-color: #d7b398;
+    margin-right: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+
+
+.icon-face-in-footer:hover{
+    background-color: #428bca;
+}
+
+.icon-twitter-in-footer:hover{
+    background-color: #00bcd4;
+}  
+
+.icon-yt-in-footer:hover{
+    background-color: red;
+}
+
+.icon-insta-in-footer:hover{
+    background-color: #48403a;
+}
+
+.border-hand-make-in-footer{
+    width: 1168px;
+    height: 1px;
+    background-color: #48403a;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.in4-contact-in-footer{
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    margin-left: 175px;
+}
+
+.in4-contact-in-footer-no-color{
+    color: #8a9e9a;
+}
+
+.in4-contact-in-footer-color{
+    margin-left: 5px;
+    color: #d1a37a;
+}
+
+.icon-next-in-footer{
+    position: absolute;
+    font-size: 10px;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.address-page1-in-footer{
+    display: flex;
+    color: #8a9e9a;
+}
+
+
+.address-page2-in-footer{
+    display: flex;
+    margin-left: 30px;
+    color: #8a9e9a;
+}
+
+.address-page3-in-footer{
+    display: flex;
+    margin-left: 30px;
+    color: #8a9e9a;
+}
+
+.address-page3-in-footer:hover,
+.address-page2-in-footer:hover,
+.address-page1-in-footer:hover{
+    color: #d1a37a;
+}
+
+
+
+.link-page-in-footer{
+    margin-top: -16px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-list-item-detail-contact{  
+    text-align: center;
+    margin-top: -24px;
+    margin-left: 830px;  
+}
+
+.img-list-item-detail-contact > img{
+    margin-left: 15px;  
+}
 
 
 
