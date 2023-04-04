@@ -1358,7 +1358,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 /* Item 4 in list sale */
 .item4-in-list-sale{
     width: 250px;
-    height: 550px;
+    height: 502px;
     text-decoration: none;
     border: 2px solid #dedede;
     margin-left: 17px;
@@ -2728,4 +2728,75 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 
 
 
+/* PAGE 2 */
+.bannerpage2{
+    width: 1480px;
+    height: 244px;
+    
 
+    
+}
+.titleinbanner{
+    position: absolute;
+    color: aliceblue;
+    padding-left: 580px;
+    font-size: 48px;
+   
+    padding-top: 81px
+}
+.titleinbanner2{
+    justify-content: space-around;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    width: 162px;
+    color: white;
+    padding-left: 696px;
+    padding-top: 212px;
+}
+.sale{
+    color: #e9e6e4;
+    position: relative;
+}
+.sale:hover{
+    color: #a8951b;
+ 
+ }
+ .sale:hover::after{
+    background-color: #84780b;
+    bottom: 0;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    left: 0px;
+  
+  }
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 483px;
+    padding-left: 533px;
+    padding-top: 67px;
+    
+    
+}
+.list{
+    color: #5d656b;
+    position: relative;
+}
+.list:hover{
+   color: #141418;
+
+}
+.list:hover::after{
+   background-color: #141418;
+   bottom: 0;
+   position: absolute;
+   content: '';
+   width: 100%;
+   height: 3px;
+   left: 0px;
+ 
+ }
