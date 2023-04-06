@@ -3579,6 +3579,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     left: 45%;
 }
 
+
 /* Item 9 in list sale */
 .item9-in-list-salepage2{
     width: 250px;
@@ -3662,13 +3663,9 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     margin-left: 230px;
 }
 
-.content-in-btn-select-optionpage2{
-    color: #9e9e9e;
-    margin-left: 20px;
-}
-.select-option-in-list-sale-in-item9page2{
-    left: 63%;
-}
+
+
+
 /* Item10 in list sale */
 .item10-in-list-salepage2{
     width: 250px;
@@ -3761,4 +3758,150 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     text-decoration: none;
     background-color: #f4f4f4;
     left: 82%;
+}
+/* MUiTen */
+.muiten{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 79px;
+    align-items: center;
+    width: 71px;
+    padding-left: 677px;
+}
+/* Start Footer */
+.footerpage2{
+    position: absolute;
+    width: 100%;
+    height: 524px;
+    background-color: #212121;
+    top: 1864px;
+}
+
+.title-in-footerpage2{
+    margin-top: 109px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.title-no-blod-in-footerpage2{
+    margin-left: 25px;
+}
+
+.icon-social-media-in-footerpage2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 46px;
+    margin-bottom: 100px;
+}
+
+.icon-social-media-in-footerpage2 >  a {
+    
+    text-decoration: none;
+    color: #212121;
+}
+
+.icon-insta-in-footerpage2,
+.icon-yt-in-footerpage2,
+.icon-twitter-in-footerpage2,
+.icon-face-in-footerpage2{
+    width: 60px;
+    height: 44px;
+    background-color: #d7b398;
+    margin-right: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+
+
+.icon-face-in-footerpage2:hover{
+    background-color: #428bca;
+}
+
+.icon-twitter-in-footerpage2:hover{
+    background-color: #00bcd4;
+}  
+
+.icon-yt-in-footerpage2:hover{
+    background-color: red;
+}
+
+.icon-insta-in-footerpage2:hover{
+    background-color: #48403a;
+}
+
+.border-hand-make-in-footerpage2{
+    width: 1168px;
+    height: 1px;
+    background-color: #48403a;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.in4-contact-in-footerpage2{
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    margin-left: 175px;
+}
+
+.in4-contact-in-footer-no-colorpage2{
+    color: #8a9e9a;
+}
+
+.in4-contact-in-footer-colorpage2{
+    margin-left: 5px;
+    color: #d1a37a;
+}
+
+.icon-next-in-footerpage2{
+    position: absolute;
+    font-size: 10px;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.address-page1-in-footerpage2{
+    display: flex;
+    color: #8a9e9a;
+}
+
+
+.address-page2-in-footerpage2{
+    display: flex;
+    margin-left: 30px;
+    color: #8a9e9a;
+}
+
+.address-page3-in-footerpage2{
+    display: flex;
+    margin-left: 30px;
+    color: #8a9e9a;
+}
+
+.address-page3-in-footerpage2:hover,
+.address-page2-in-footerpage2:hover,
+.address-page1-in-footerpage2:hover{
+    color: #d1a37a;
+}
+
+
+
+.link-page-in-footerpage2{
+    margin-top: -16px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-list-item-detail-contactpage2{  
+    text-align: center;
+    margin-top: -24px;
+    margin-left: 830px;  
+}
+
+.img-list-item-detail-contactpage2 > img{
+    margin-left: 15px;  
 }
