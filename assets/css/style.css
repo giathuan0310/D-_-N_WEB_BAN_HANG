@@ -3292,7 +3292,6 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 
 
 /* Item 6 */
-
 .item6-in-list-salepage2{
     width: 250px;
     height: 502px;
@@ -3300,7 +3299,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     border: 2px solid #dedede;
 }
 
-.item6-in-list-salepage2:hover{
+.item1-in-list-salepage2:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -3454,6 +3453,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     color: #9e9e9e;
     margin-left: 20px;
 }
+
 
 /* Item7 in list sale */
 .item7-in-list-salepage2{
