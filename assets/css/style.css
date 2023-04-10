@@ -792,6 +792,11 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     justify-content: center;
 }
 
+.icon-in-banner-header{
+    width: 25px;
+    height: 25px;
+}
+
 .banner3{
     display: flex;
     align-items: center;
