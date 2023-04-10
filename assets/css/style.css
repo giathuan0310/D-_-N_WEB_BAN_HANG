@@ -4,7 +4,6 @@
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: Montserrat;
 }
 
 /* CSS header */
@@ -226,6 +225,7 @@
 .nav-item-list-in-about{
     position: relative;
     left: 13%;
+    z-index: 10;
 }
 
 
@@ -311,6 +311,7 @@
 
 .nav-item-list-in-categories{
     position: relative;
+    z-index: 10;
 
 }
 
@@ -743,7 +744,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
     font-size: 17px;
     padding-top: 15px;
     color: black !important;
-
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .icon-cart-shopping-in-header:hover .backround-in-icon-shopping-in-header{
@@ -3910,3 +3911,307 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 .img-list-item-detail-contactpage2 > img{
     margin-left: 15px;  
 }
+
+
+
+
+/*                                              CSS -Page 3                                                    */
+
+/* Strart content */
+
+
+
+/* Strart content back round img  */
+.content__img--page3{
+    width: 100%;
+    box-sizing: border-box;
+    height: 449px;
+    transform: translate3d(0px, 0px, 0px);
+    background-size: cover;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/03/1.jpg);
+    z-index: 1;
+}
+
+
+
+.content--img__title{
+    height: 449px;
+    color: #ffffff;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.content--img__item{
+    margin-top: -11px;
+    z-index: 3;
+    display: flex;
+    color: black;
+    justify-content: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+
+
+.item__title--home:hover{
+    color: #d1b49b;
+}
+
+.content--img__icon--home{
+    margin-left: 15px;
+}
+
+.item__title--About{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item__title--About:hover{
+    color: #d1a37a;
+}
+
+.item__title--About--US{
+    margin-left: 15px;
+}
+
+.item__title--About--US{
+    color: #d1b49b;
+    border-bottom: 3px solid #d1b49b;
+}
+/* End content backround img */
+
+/* Start content news of shop  */
+.content__news--page3{
+    display: flex;
+    margin-top: 152px;
+    justify-content: center;
+   
+}
+
+
+
+/* Start Content new in left */
+.content--news__img--left--page3{
+    z-index: 1;
+    width: 360px;
+    height: 530px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/2-1.jpg);
+    background-size: cover;
+}
+
+.content__img--back--round-hover{
+    display: flex;
+    z-index: 3;
+    width: 360px;
+    height: 530px;
+    background-color: #d1a37a;
+    display: none;
+}
+
+.content--news__icon--camera{
+    width: 360px;
+    height: 530px;
+    text-align: center;
+    color: #fafafa;
+    font-size: 40px;
+    margin-top: 66.9%;
+}
+
+.content--news__img--left--page3:hover .content__img--back--round-hover {
+    display: block;
+    opacity: 0.9;
+}
+
+
+
+
+/* End content news in left */
+
+
+/* Start Content news in right */
+.news--item--right--page3{
+    display: grid;
+    grid-template-columns: 377px 377px;
+    grid-auto-rows: 147px 141px 138px;
+    grid-template-areas: 
+    "headline headline"
+    "paragraph-top-list paragraph-top-list"
+    "list-left list-right"
+    "pagraph-botoom-list pagraph-botoom-list"
+    "bottom bottom";
+    margin-left: 43px;
+}
+
+
+
+.news--item__headline--right--page3{
+    width: 728px;
+    height: 82px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    grid-area: headline;
+}
+
+.news--item__paragraph--right--top--list--page3{
+    grid-area: paragraph-top-list;
+}
+
+.news--item__paragraph--right--page3{
+    width: 756px;
+    height: 90px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #9e9e9e;
+}
+
+.news--item__paragraph--right--bottom--list--page3{
+    margin-top: 5px;
+    grid-area:pagraph-botoom-list;
+}
+
+
+.news--item__list--left--page3{
+    margin-top: -20px;
+    width: 328px;
+    height: 87px;
+    list-style-type: square;
+    color: #9e9e9e;
+    grid-area:list-left;
+    line-height: 40px;
+    margin-left: 14px;
+
+}
+
+.news--item__list--right--page3{
+    margin-top: -20px;
+    width: 328px;
+    height: 87px;
+    list-style-type: square;
+    color: #9e9e9e;
+    grid-area:list-right;
+    line-height: 40px;
+}
+
+/* End content news  in right*/
+
+
+/* Start news item bottom  */
+.news--bottom__backround{
+    position: absolute;
+    width: 1174px;
+    height: 148px;
+    background-color: #f4f4f4;
+    grid-area: bottom bottom;
+    left: 11.8%;
+}
+
+.news--bottom__item--text{
+    width: 900px;
+    height: 40px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-size: 18px;
+}
+
+.news--bottom__item--icon{
+    position: absolute;
+    left: 89.5%;
+    margin-top: 75px;
+}
+
+.link-btn-shop-now--page3{
+    position: relative;
+    left: -100%;
+}
+
+.link-btn-buy-now--page3{
+    
+}
+
+.link-btn-back-main-page3{
+
+}
+
+/* End news item botoom*/
+
+/* End content news of shop */
+
+/* Start count in content */
+.content--count__back--round{
+    margin-top: 50px;
+    width: 100%;
+    height: 260px;
+    background: linear-gradient(0deg, #355c7d, #6c5b7b, #c06c84);
+}
+
+.content--count{
+    width: 1047px;
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 219px;
+}
+
+.content--count__item__headline{
+    font-size: 50px;
+    color: #d1a37a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content--count__item__desc{
+    font-size: 24px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* End count in content */
+
+
+
+
+
+/* Start  brand in content*/
+.list-brand-in-content--page3{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+}
+
+.title-in-list-brand{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-title-in-list-brand{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* End brand in content */
+
+
+/* Start Content we can do */
+.content--news--shop--can--do{
+    width: 100%;
+    height: 810px;
+    background-color: #f4f4f4;
+}
+
+/* End Content we can do */
+
+
+
+
+
+
+
+
+
+/* End content */
+
