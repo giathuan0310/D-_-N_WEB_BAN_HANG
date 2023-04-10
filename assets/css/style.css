@@ -901,6 +901,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 }
 
 .btn-back-main-page{
+    z-index: 3;
     top: 90%;
     position: fixed;
     width: 49px;
@@ -4428,10 +4429,12 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop{
 
 /* End content detail the shop */
 
-
-
-
-
-
 /* End content */
 
+/* Start Footer Page3  */
+.footer--page3{
+    z-index: 1;
+    position: absolute;
+    top:500%;
+}
+/* End footer page3 */
