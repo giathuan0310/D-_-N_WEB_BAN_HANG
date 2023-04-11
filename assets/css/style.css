@@ -4375,7 +4375,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     height: 448px;
 }
 
-.titleinbanner {
+.titleinbannerpage4 {
     position: absolute;
     color: aliceblue;
     padding-left: 564px;
@@ -4392,4 +4392,76 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     color: white;
     padding-left: 631px;
     padding-top: 409px;
+}
+.menupage4{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -500px;
+    padding-top: 121px;
+}
+.menuleftpage4{
+    display: flex;
+    align-items: center;
+    margin-left: 365px;
+    
+
+}
+
+.menurightpage4{
+    display: flex;
+    
+
+}
+.left-p4{
+    margin-left: 10px;
+}
+.right-p4{
+    margin-left: 10px;
+}
+.left-p4:hover{
+   color: #a8951b;
+}
+.img-text-p4{
+    display: flex;
+    padding-top: 57px;
+    padding-left: 111px;
+}
+.img-text-p4-left{
+    /* width: 562px; height: 405px;
+    padding-left: 61px; */
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/02/2.jpg);
+    background-size: 592px;
+    background-repeat: no-repeat;
+    width: 345%;
+    position: relative;
+}
+.img-text-p4-left:hover{
+    position: absolute;
+    background-color: rgba(215,179,152,.8);
+}
+.img-text-p4-left:hover::before{
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: opacity .5s,background-color .5s;
+    transition: opacity .5s,background-color .5s;
+    opacity: 0;
+    z-index: 5;
+}
+   
+   
+
+.img-text-p4-right{
+    padding-left: 48px;
+    font-size: 25px;
+}
+.text-icons-p4{
+    padding-top: 20px;
+    font-size: 20px;padding-top: 15px;
+    font-family: 'Source Sans Pro';line-height: 25px;
 }
