@@ -4471,3 +4471,378 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     font-size: 20px;padding-top: 15px;
     font-family: 'Source Sans Pro';line-height: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+/*CSS         PAGE5     */
+
+/* Start content  */
+
+/* Start content img back round  */
+.content__img--backround{
+    margin-top: -0.1px;
+   width: 100%;
+   height: 450px;
+   background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/5-7.jpg);
+   box-sizing: border-box;
+   background-size: cover;
+}
+
+.content__img--headline{
+    display: flex;
+    height: 450px;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__img--backround__item,
+.img--backround__item{
+    display: flex;
+}
+
+.content__img--backround__item{
+    justify-content: center;
+    width: 100%;
+    margin-top: -22px;
+}
+
+.img--backround__item{
+    width: 80px;
+    justify-content: space-around;
+}
+
+.item__icon--right{
+    font-size: 16px;
+    margin-top: 3px;
+    color: #ffffff;
+}
+
+.item__link{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.item__link--home:hover,
+.item__link--post:hover{
+    color: #d1a37a;
+}
+
+.item__link--shop--post{
+    color: #d1a37a;
+    border-bottom: 3px solid #d1a37a;
+}
+
+/* End content img back round */
+
+
+/* Start content navbar */
+.content__navbar{
+    margin-left: 175px;
+    margin-top: 144px;
+}
+
+.content--navbar__item{
+    width: 1168px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Start navbar item left  */
+.item--left__title{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #9e9e9e;
+}
+
+.content--navbar__item--left{
+    width: 257px;
+    height: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item--left__title--admin,
+.item--left__title--post{
+    padding-right: 10px;
+    height: 16px;
+    border-right: 2px solid #d4dee1;
+}
+
+.item--left__title--post{
+    color: #d1a37a;
+}
+
+/* End navbar item left */
+
+
+/* Start  navbar item right */
+.item--right__icon{
+    width: 120px;
+    display: flex;
+    text-decoration: none;
+    color: #9e9e9e;
+    justify-content: space-evenly;
+}
+
+
+.item--right__icon--heart{
+    color: #f44336;
+    display: flex;
+}
+
+.item--right__icon--heart:hover{
+    color: black;
+}
+
+.item--right__icon--heart--number{
+    margin-left: 7px;
+}
+
+/* End navbar item right */
+
+/* End content navbar */
+
+
+
+
+/* Start content news */
+.content--news{
+    margin-left: 175px;
+    margin-top: 61px;
+}
+
+/* Start content--news--have__headline */
+.content--news--have__headline{
+    width: 1167px;
+    height: 559px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content--news--left--backround{
+    width: 563px;
+    height: 561px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/2-2.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.content--news--left--backround__after--hover{
+    width: 563px;
+    height: 561px;
+    background-color: #d1a37a;
+    opacity: 0.9;
+    display: none;
+}
+
+.icon__after--hover{
+    position: relative;
+    width: 563px;
+    text-align: center;
+    top: 50%;
+    color: white;
+    font-size: 45px;
+}
+
+
+.content--news--left--backround:hover .content--news--left--backround__after--hover{
+    display: block;
+}
+
+
+.content--news--right{
+    width: 563px;
+    height: 561px;
+}
+
+.content--news--right__headline{
+    margin-top: -6.5px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.content--news--right__list{
+    margin-top: 44px;
+}
+
+.content--news--right__list > li {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #9e9e9e;
+    margin-left: 19px;
+    line-height: 40px;
+}
+
+.content--news--right__paragraph{
+    font-size: 16px;
+    width: 561px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #9e9e9e;
+}
+
+.content--news--right__paragraph--top{
+    margin-top: 48px;
+}
+
+.content--news--right__paragraph--bottom{
+    margin-top: 43px;
+}
+
+/* End content--news--have__headline */
+
+
+/* Start content news no headline */
+.content--news--no__headline{
+    margin-top: 92px;
+    width: 1167px;
+    height: 559px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content--news--left__paragraph--bottom,
+.content--news--left__paragraph--top{
+    font-size: 16px;
+    color: #9e9e9e;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+}
+
+.content--news--backround--left{
+    width: 562px;
+    height: 219px;
+    background-color: #f4f4f4;
+}
+
+.center--pagragraph--left{
+    font-size: 18px;
+    width: 562px;
+    height: 219px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.content--news--left__paragraph--middle{
+    width: 500px;
+    height: 112px;
+}
+
+.icon--news--left--paragraph{
+    position: absolute;
+    margin-top: 145px;
+    left: 39%;
+}
+
+.content--news--backround--left{
+    margin-top: 54px;
+}
+
+.content--news--left__paragraph--bottom{
+    margin-top: 54px;
+}
+
+
+
+
+.content--news--right--backround{
+    width: 563px;
+    height: 561px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/3-2.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.content--news--left--no__healine{
+    width: 563px;
+    height: 571px;
+}
+
+
+.content--news--right--backround__after--hover{
+     width: 563px;
+    height: 561px;
+    background-color: #d1a37a;
+    opacity: 0.9;
+    display: none;
+}
+
+.content--news--right--backround:hover .content--news--right--backround__after--hover{
+    display: block;
+}
+
+/* End content  news no headline */
+/* End content news */
+
+
+/* Start content img product  */
+.content__img--product{
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img--product{
+    width: 1165px;
+    height: 258px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img--product__item{
+    width: 261px;
+    height: 259px;
+}
+
+.img--product__item--1{
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/7.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.img--product__item--2{
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/6.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.img--product__item--3{
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/5-1.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.img--product__item--4{
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/4-1.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+
+
+
+
+/* End content img product */
+
+
+/* End content */
