@@ -4065,21 +4065,25 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 
 /* Start count in content */
 
-.content--count__back--round {
+.content__img--backround{
     margin-top: 50px;
     width: 100%;
-    height: 260px;
-    background: linear-gradient(0deg, #355c7d, #6c5b7b, #c06c84);
+    height: 265px;
 }
 
 .content--count {
     width: 1047px;
     display: flex;
-    height: 260px;
+    height: 90px;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     margin-left: 219px;
+}
+
+.content--count__item{
+    margin-top: -350px;
+    text-align: center;
 }
 
 .content--count__item__headline {
@@ -4122,6 +4126,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 /* Start Content we can do */
 
 .content--news--shop--can--do {
+    margin-top: calc(121px - 5px);
     width: 100%;
     height: 850px;
     background-color: #f4f4f4;
@@ -4286,7 +4291,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 /*  Start content detail the shop*/
 
 .content--deltail--the--shop--page3 {
-    margin-top: 50px;
+    margin-top: 7px;
     width: 100%;
     height: 516px;
     display: flex;
@@ -4358,9 +4363,10 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 /* Start Footer Page3  */
 
 .footer--page3 {
+    margin-top: 3px;
     z-index: 1;
     position: absolute;
-    top: 500%;
+    top: 524%;
 }
 
 
