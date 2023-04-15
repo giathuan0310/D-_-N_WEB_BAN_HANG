@@ -4614,7 +4614,9 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 
 /* End content navbar */
 
-
+.btn-buy-now--page5{
+    z-index: 2;
+}
 
 
 /* Start content news */
@@ -5264,5 +5266,23 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     background-color: #212121;
 }
 /* End content give information */
+
+/* Start list brand in content */
+.img-in-list-brand--page4{
+    margin-top: 128px;
+}
+
+.icon-control-next-or-previous-in-list-brand--page4{
+    position: absolute;
+    top: -13%;
+
+}
+
+.icon-next-in-list-brand--page4{
+    z-index: 10;
+}
+
+
+/* End list brand in cotent */
 
 /* End content */
