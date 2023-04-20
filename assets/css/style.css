@@ -4797,7 +4797,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 .content--tagspage4{
     margin-top: 60px;
     display: flex;
-    margin-left: -14px;
+    margin-left: 163px;
 }
 
 
@@ -4903,7 +4903,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     width: 160px;
     display: flex;
     margin-top: 40px;
-    margin-left: -11px;
+    margin-left: 163px;
     justify-content: space-between;
     color: #9e9e9e;
 }
@@ -4940,7 +4940,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     display: flex;
     width: 1169px;
     height: 281px;
-    margin-left: -20px;
+    margin-left: 163px;
     background-color: #f4f4f4;
 }
 
@@ -4998,7 +4998,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 /* End content author */
 /* Start content related posts */
 .content--realated--postspage4{
-    margin-left: -33px;
+    margin-left: 163px;
     margin-top: 65px;
 }
 
@@ -5146,6 +5146,12 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 /* End content related posts */
 
 /* Message */
+.Message-content{
+    display: flex;
+    padding-top: 48px;
+    margin-left: 163px;
+}
+
 .icon-message-page4{
     width: 80px;
     height: 75px;
@@ -5158,7 +5164,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     width: 30px;
 }
 .item-center-header-navbar-contact-message>input {
-    position: absolute;
+    
     margin-top: 2px;
     width: 1200px;
     height: 322px;
@@ -5168,7 +5174,38 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
  solid #9e9e9e;
     right: 9%;
 }
+.box-input{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 65px;
+    justify-content: space-around;
+}
+.item-center-header-navbar-contact-message1>input {
+    
+    margin-top: 2px;
+    
+    border-radius: 2px;
+    border: 2px
+    
 
+    solid #9e9e9e;
+    right: 9%;
+    width: 288px;
+    height: 45px;
+}
+
+
+
+/* Start footer */
+.footer--page4{
+    margin-top: 3px;
+    z-index: 1;
+    position: absolute;
+    top: 720%;
+}
+
+
+/* End footer */
 
 
 
