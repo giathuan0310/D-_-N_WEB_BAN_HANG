@@ -5988,7 +5988,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 
 /* End content */
 
-/* Start footer */
+/* Start footer page 5 */
 .footer--page5{
     margin-top: 3px;
     z-index: 1;
@@ -5997,4 +5997,61 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 }
 
 
-/* End footer */
+/* End footer  page5*/
+
+
+
+
+/*          CSS PAGE 6        */
+.content__img--backround--page6{
+    width: 100%;
+    height: 421.25px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/1-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img--backround__headline--page6{
+    width: 100%;
+    height: 421.25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 74px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.address--item--page6{
+    margin-top: -40px;
+    text-align: center;
+    display: flex;
+    width: 111px;
+    height: 15px;
+    justify-content: space-between;
+    color: #fafafa;
+}
+
+.img--backround__link--address--page6{
+    display: flex;
+    width: 100%;
+    height: 5px;
+    justify-content: center;
+}
+
+.link--address__item--page6{
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.link--address__item--home--page6:hover{
+    color: #d1b49b;
+}
+
+.link--address__item--tag--page6{
+    padding-bottom: 37px;
+    color: #d1b49b;
+    border-bottom: 3px solid #d1b49b;
+}
+
