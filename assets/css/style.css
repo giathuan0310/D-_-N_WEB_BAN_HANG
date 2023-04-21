@@ -6092,3 +6092,94 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     border-bottom: 3px solid #d1b49b;
 }
 
+/* Start content news page6*/
+
+.content--news{
+    display: flex;
+    width: 1170px;
+    justify-content: center;
+}
+
+
+/* item 1 */
+
+
+.content--news__item--img--page6{
+    display: flex;
+    width: 1170px;
+    height: 539px;
+    justify-content: center;
+}
+
+.content--news__img--page6{
+    margin-top: 30px;
+    width: 1170px;
+    height: 539px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/9-20-1-thegem-blog-default-large.jpg);
+    background-repeat: none;
+    
+}
+
+.news__icon--bar--page6{
+    position: absolute;
+    left: 35%;
+    color: white;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.news__icon--square--page6{
+    position: absolute;
+    margin-top: 15px;
+    left: 23%;
+    color: white;
+    font-size: 50px;
+}
+
+
+.content--news__icon-after-hover--page6{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+   
+}
+
+
+.content--news__icon-after-hover--item1--page6{
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+
+
+
+.content--news__img--page6:hover{
+    filter: opacity(80%);
+}
+
+.content--news__img--page6:hover .content--news__icon-after-hover--item1--page6{
+    display: block;
+}
+
+/* item2 in content new page6 */
+.content--news__img--item2--page6{
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/8-22-1-thegem-blog-default-large.jpg);
+}
+
+.content--news__icon-after-hover--item2--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.content--news__img--item2--page6:hover .content--news__icon-after-hover--item2--page6{
+    display: block;
+
+}
+
+
+/* End content news page6 */
