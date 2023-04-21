@@ -6102,7 +6102,13 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 
 
 /* item 1 */
-
+.content--news--page6{
+   margin-top: 70px;
+    width: 1170px;
+    height: 539px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .content--news__item--img--page6{
     display: flex;
@@ -6156,7 +6162,6 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 }
 
 
-
 .content--news__img--page6:hover{
     filter: opacity(80%);
 }
@@ -6165,8 +6170,115 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     display: block;
 }
 
+
+.content--news__headline--page6{
+    margin-top: 22px;
+}
+
+.news--headline__item--page6{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headeline__item--source--news{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline__item--source--page6{
+    border-right: 1px solid #9e9e9e;
+    padding-right: 13px;
+    color: #9e9e9e;
+}
+
+.headline__item--post--page6{
+    color: #d7b398;
+}
+
+.headline__item--post--page6:hover{
+    color: #9e9e9e;
+}
+
+
+.headline__item--icon--page6{
+    width: 37px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: space-between;
+    color: #f44336;
+}
+
+.headline__item--icon--page6:hover{
+    color: #141418;
+}
+
+.headline__item--icon--number--of--heart{
+    font-size: 16px;
+}
+
+.news__title--page6{
+    width: 350px;
+    margin-top: 45px;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+.news__title--no--bold{
+    font-weight: 100;
+}
+
+.news--title__desc--page6{
+    margin-top: 53px;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #9e9e9e;
+}
+
+.news--title__button--link--page6{
+    width: 150px;
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news--tile__icon--share{
+    color: #d7b398;
+    font-size: 35px;
+}
+
+.news--tile__icon--share:hover{
+    color: #9e9e9e;
+}
+
+.news--tile__button--page6{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #d7b398;
+    color: #d7b398;
+}
+
+.news--tile__button--page6:hover{
+    background-color: #d7b398;
+    color: #fafafa;
+}
+
+
+
+
 /* item2 in content new page6 */
+.content--news__item-2{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
 .content--news__img--item2--page6{
+    margin-top: 80px;
     background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/8-22-1-thegem-blog-default-large.jpg);
 }
 
@@ -6181,5 +6293,278 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 
 }
 
+.headline__item--icon--item2--page6{
+    margin-right: 45px;
+}
+
+.news__item--icon--comment--page6{
+    display: flex;
+    border-right: 2px solid #9e9e9e;
+    padding-right: 10px;
+    color: #9e9e9e;
+}
+
+.news__item--icon--comment--page6:hover{
+    color: #d7b398;
+}
+
+
+.news__item--icon--heart--page6{
+    margin-left: 10px;
+    display: flex;
+}
+
+/* item 3 in content news page 6  */
+.content--news__item-3{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item3--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/2-3-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item3{
+    width: 450px;
+}
+
+.content--news__icon-after-hover--item3--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item3--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item3--page6:hover .content--news__icon-after-hover--item3--page6{
+    display: block;
+
+}
+
+
+/* item 4 in content news page 6 */
+.content--news__item-4{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item4--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/3-3-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item4{
+    width: 450px;
+}
+
+.content--news__icon-after-hover--item4--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item4--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item4--page6:hover .content--news__icon-after-hover--item4--page6{
+    display: block;
+
+}
+
+/* item 5  */
+.content--news__item-5{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item5--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/6-1-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item5{
+    width: 450px;
+}
+
+.content--news__icon-after-hover--item5--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item5--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item5--page6:hover .content--news__icon-after-hover--item5--page6{
+    display: block;
+
+}
+
+/* item 6 */
+.content--news__item-6{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item6--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/4-2-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item6{
+    width: 450px;
+}
+
+.content--news__icon-after-hover--item6--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item6--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item6--page6:hover .content--news__icon-after-hover--item6--page6{
+    display: block;
+
+}
+
+/* item 7 */
+.content--news__item-7{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item7--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/11-10-1-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item7{
+    width: 330px;
+}
+
+.content--news__icon-after-hover--item7--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item7--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item7--page6:hover .content--news__icon-after-hover--item7--page6{
+    display: block;
+
+}
+
+/* item 8 */
+.content--news__item-8{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item8--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/5-2-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item8{
+    width: 430px;
+}
+
+.content--news__icon-after-hover--item8--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item8--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item8--page6:hover .content--news__icon-after-hover--item8--page6{
+    display: block;
+
+}
+
+/* item 9 */
+.content--news__item-9{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item9--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/9-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item9{
+    width: 430px;
+}
+
+.content--news__icon-after-hover--item9--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item9--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item9--page6:hover .content--news__icon-after-hover--item9--page6{
+    display: block;
+
+}
+
+/* item 10 */
+.content--news__item-10{
+    margin-top: 80px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.content--news__img--item10--page6{
+    margin-top: 80px;
+    background-image: url(https://codex-themes.com/thegem/sites/shop-online/wp-content/uploads/2019/01/7-1-thegem-blog-default-large.jpg);
+}
+
+.news__title--page6--item10{
+    width: 430px;
+}
+
+.content--news__icon-after-hover--item10--page6{
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+.headline__item--icon--item10--page6{
+    margin-right: 40px;
+}
+
+.content--news__img--item10--page6:hover .content--news__icon-after-hover--item10--page6{
+    display: block;
+
+}
+
+.border__botoom--item10{
+    margin-top: 80px;
+    width: 100%;
+    height: 2px;
+    background-color: #e6e6e6;
+}
+
+.content__slider{
+    height: 60px;
+    margin-top: 20px;
+}
 
 /* End content news page6 */
