@@ -5219,6 +5219,8 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 /* Start content  */
 
 /* Start content img back round  */
+
+
 .content__img--backround{
     margin-top: -0.1px;
    width: 100%;
@@ -5359,6 +5361,8 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 }
 
 /* Start content--news--have__headline */
+
+
 .content--news--have__headline{
     width: 1167px;
     height: 559px;
@@ -6094,8 +6098,8 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 
 /* Start content news page6*/
 
-.content--news{
-    display: flex;
+.content--news--page6{
+    /* display: flex; */
     width: 1170px;
     justify-content: center;
 }
