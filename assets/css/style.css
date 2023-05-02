@@ -2699,7 +2699,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 }
 
 
-/* PAGE 2 */
+/*CSS PAGE 2 */
 
 .bannerpage2 {
     width: 100%;
@@ -2773,6 +2773,8 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 }
 
 
+
+
 /* CSS list sale item in content PAGE 2 */
 
 .title-in-list-sale-item {
@@ -2791,6 +2793,82 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     /* background-color: red; */
 }
 
+.img-item1-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.item2-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.item3-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.item4-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.item5-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+
+.item6-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.item7-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+
+.item8-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.item9-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.item10-in-list-salepage2:hover .backround__img--after--hover--page2{
+    display: block;
+}
+
+.content__backround--img--after--hover--page2--item4{
+    position: absolute;
+    margin-top: 1000px;
+}
+
+
+.backround__img--after--hover--page2{
+    position: absolute;
+    top: 780%;
+    z-index: 10;
+    width: 251px;
+    height: 25px;
+    background-color: #d1a37a;
+    display: none;
+}
+
+
+.backround__img--after--hover--page2--item4{
+    position: absolute;
+    top: 1000%;
+    z-index: 10;
+    width: 251px;
+    height: 25px;
+    background-color: #d1a37a;
+    display: none;
+}
+
+.content__backround--img--after--hover--page2{
+    width: 251px;
+    height: 300px;
+    text-align: center;
+    margin-top: 3px;
+    color: white;
+}
 
 /* item1-in-list-sale */
 
@@ -2806,6 +2884,7 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
 }
 
 .backround-pct-discount-itempage2 {
+    z-index: 1;
     position: absolute;
     font-size: 17px;
     width: 40px;
@@ -2822,6 +2901,8 @@ ul.nav-item-list-in-shop:hover .item-in-list-shop {
     margin-left: 5px;
     color: white;
 }
+
+
 
 .backround-status-item-in-list-salepage2 {
     position: absolute;
